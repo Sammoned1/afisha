@@ -1,0 +1,37 @@
+.activePanel{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.panelItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    height: 40px;
+    position: relative;
+    transition: all 0.4s ease;
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.panelItem::after{
+    content: '';
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: #ED2939;
+    transition: all 0.3s ease;
+}
+.panelItem:hover:after{
+    width: 100%;
+    left: 0;
+}
+

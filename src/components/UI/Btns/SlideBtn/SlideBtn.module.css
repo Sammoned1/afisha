@@ -1,0 +1,17 @@
+.slideBtn{
+    height: 40px;
+    width: 40px;
+    background-color: #ED2939;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.4s ease;
+}
+
+.slideBtn:active{
+    transform: scale(0.9);
+}

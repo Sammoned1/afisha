@@ -1,0 +1,28 @@
+.sliderItem{
+    /*max-height: 300px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.sliderItemPhotoContainer{
+    height: 100%;
+    width: 100%;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.sliderItemTitleContainer{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.sliderItemDescContainer{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+    /*height: 30px;*/
+    height: auto;
+}

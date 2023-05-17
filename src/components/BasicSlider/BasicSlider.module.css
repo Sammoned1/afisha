@@ -1,0 +1,50 @@
+.basicSlider{
+    height: auto;
+    width: min-content;
+    margin: 0 auto 50px auto;
+}
+
+.wrapper{
+    display: flex;
+    width: fit-content;
+
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    /*margin: 25px auto 0 auto;*/
+    margin-top: 25px;
+    position: relative;
+    /*border: 1px solid red;*/
+}
+
+
+
+/*.container::after{*/
+/*    content: '';*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    width: 50px;*/
+/*    height: 100%;*/
+/*    position: absolute;*/
+/*    background-color: rgba(255,255,255,0.4);*/
+/*    !*box-shadow: 0 0 100px 50px rgba(255, 255, 255, 0.4);*!*/
+/*}*/
+
+
+.titleContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.btnContainer{
+    display: flex;
+    gap: 12px;
+}
